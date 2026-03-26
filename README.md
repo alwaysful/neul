@@ -1,0 +1,104 @@
+[profile.html](https://github.com/user-attachments/files/26259863/profile.html)
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 2.5em;
+    }
+
+    h2 {
+      color: #666;
+      font-weight: normal;
+    }
+
+    .section {
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .section h3 {
+      border-bottom: 2px solid #764ba2;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      background: #764ba2;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      background: #5a3790;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Test.svg/1280px-Test.svg.png?_=20260323205214" alt="프로필 사진" class="profile-img">
+    <h1>김늘찬</h1>
+    <h2>Infoteam</h2>
+
+    <div class="section">
+      <h3>소개</h3>
+      <p>김늘찬 입니다 열심히 하겠습니다.</p>
+    </div>
+
+    <div class="section">
+      <h3>기술 스택</h3>
+        <ul><li>BE</li></ul>
+    </div>
+
+    <div class="section">
+      <h3>MBTI</h3>
+       <ul><li>INTP</li></ul> 
+    </div>
+
+    <div class="section contact">
+      <h3>연락처</h3>
+        <a href="#" onclick="alert('010-4086-1453'); return false;">Phone</a>
+        <a href="#" onclick="alert('neulchan070810@gm.gist.ac.kr'); return false;">Email</a>
+        <a href="#" onclick="alert('neulchan070810@gistory.me'); return false;">Gistory</a>        
+        <a href="https://github.com/alwaysful/neul" target="_blank">GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
